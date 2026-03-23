@@ -23,8 +23,8 @@ def load_data(filename, columns):
     return pd.DataFrame(columns=columns)
 
 
-SALES_FILE = "triveni_sales.csv"
-EXPENSE_FILE = "triveni_expenses.csv"
+SALES_FILE = "triveni_sales1.csv"
+EXPENSE_FILE = "triveni_expenses1.csv"
 
 sales_df = load_data(SALES_FILE, ["तारीख", "ग्राहक", "मोबाइल", "ब्लॉक_टाइप", "कुल_बिल", "जमा_राशि", "बकाया"])
 expense_df = load_data(EXPENSE_FILE, ["तारीख", "विवरण", "श्रेणी", "रकम"])
